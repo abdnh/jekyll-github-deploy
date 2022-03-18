@@ -22,8 +22,8 @@
 
 STDOUT.sync = true
 
-require 'trollop'
-opts = Trollop.options do
+require 'optimist'
+opts = Optimist::options do
   banner <<-EOS
 jgd is an automated deployer of Jekyll site to Github Pages
 
